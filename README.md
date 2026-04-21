@@ -94,13 +94,13 @@ Instead of treating AI calls as opaque text, AEGIS converts every interaction in
 ```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    React Defense Dashboard                  │
-│  Metrics • shield state • live feed • heatmap • radar      │
+│  Metrics • shield state • live feed • heatmap • radar       │
 └───────────────┬─────────────────────────────────────────────┘
                 │ HTTP + WebSocket
 ┌───────────────▼─────────────────────────────────────────────┐
 │                       FastAPI Backend                       │
 │                                                             │
-│  /intercept/prompt     prompt safety pipeline              │
+│  /intercept/prompt     prompt safety pipeline               │
 │  /intercept/response   response validation pipeline         │
 │  /demo/attack          one-click attack simulation          │
 │  /threats, /stats      threat records + aggregate metrics   │
@@ -108,8 +108,8 @@ Instead of treating AI calls as opaque text, AEGIS converts every interaction in
 └───────────────┬─────────────────────────────────────────────┘
                 │
       ┌─────────▼─────────┐          ┌────────────────────────┐
-      │  Pattern Detectors │          │   Groq LLM Analysis    │
-      │  regex + scoring   │          │   semantic risk eval   │
+      │  Pattern Detectors│          │   Groq LLM Analysis    │
+      │  regex + scoring  │          │   semantic risk eval   │
       └───────────────────┘          └────────────────────────┘
 ```
 
