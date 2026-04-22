@@ -278,20 +278,6 @@ npm run build
 
 ---
 
-## 📜 License
-
-Licensed under **CC BY-NC 4.0** — see [LICENSE](LICENSE) for details.
-
----
-
-<div align="center">
-
-Built by [Crasta Telvin](https://github.com/crastatelvin)
-
-⭐ Star this repo if it helps your AI safety work.
-
-</div>
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](./LICENSE).
